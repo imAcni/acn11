@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://www.contrails.space/</loc>
+<lastmod>2023-08-01T14:14:12.000Z</lastmod>
+</url>
+<url>
+<loc>https://www.contrails.space/posts</loc>
+<lastmod>2023-08-01T14:14:12.000Z</lastmod>
+</url>
+<url>
+<loc>https://www.contrails.space/posts/rev-swampctf2025-beginnerpwn2</loc>
+<lastmod>2025-04-01T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://www.contrails.space/posts/forensics-swampctf2025-muddywater</loc>
+<lastmod>2025-04-01T00:00:00.000Z</lastmod>
+</url>
+<url>
+<loc>https://www.contrails.space/posts/web-goosectf-animalsrus</loc>
+<lastmod>2025-05-10T00:00:00.000Z</lastmod>
+</url>
+</urlset>

