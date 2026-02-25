@@ -25,7 +25,7 @@ Welcome to my website, where I post my writeups/scripts for the CTFs I play in. 
         <div class="text-sm text-foreground/80">Enthion</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-red-400/50 bg-red-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
+        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
         <span>2nd 🥈</span>
       </div>
     </div>
