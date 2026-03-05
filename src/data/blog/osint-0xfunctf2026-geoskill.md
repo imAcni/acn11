@@ -100,4 +100,4 @@ https://www.google.com/maps/place/32°18'57.1"N+64°45'01.7"W/@32.3159517,-64.75
 ![](/images/geoskill/image7.png)  
 
 
-In all, this ctf was absolutely insane and everything that could've happened, happened. I hope yall dont blame me for all the shit that happened tho ong i was NOT responsible. (nor did i steal any chalsmyself lol). 
+In all, this ctf was absolutely insane and somehow all the worst case scenarios happened to occur. I hope yall dont blame me for all the crap that happened tho ong i was NOT responsible. (nor did i steal any chals myself lol). 
