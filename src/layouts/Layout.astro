@@ -2,6 +2,7 @@
 import { Font } from "astro:assets";
 import { ClientRouter } from "astro:transitions";
 import { PUBLIC_GOOGLE_SITE_VERIFICATION } from "astro:env/client";
+import Analytics from "@vercel/analytics/astro";
 import { SITE } from "@/config";
 import "@/styles/global.css";
 
@@ -141,6 +142,7 @@ const structuredData = {
     }
 
     <ClientRouter />
+    <Analytics />
 
     <!-- Minimal inline script to prevent FOUC - sets theme immediately -->
     <script is:inline>
