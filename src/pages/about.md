@@ -5,15 +5,20 @@ title: "About"
 
 ## tyler 
 
-Welcome to my website, where I post my writeups/scripts for the CTFs I play in. I'm currently a senior in high school, looking to work in cybersecurity. In my free time, i play ctfs and currently main binary exploitation.
+Welcome to my website, where I post my writeups/scripts for the CTFs I play in. I'm currently a senior in high school, looking to work in cybersecurity. In my free time, i play ctfs and currently main binary exploitation. Recently I also started enjoying OSINT as well. 
+
+I also watch a lot of soccer and basketball. My favorite club is Man City, and my favorite players is KDB and Doku. 
 
 
 # Teams i play for
-[0xfun](https://0xfun.org/)
 
 [0xf1sh](https://0xf1.sh/)
 
-(and sometimes [tjcsc](https://ctftime.org/team/53812))
+[tjcsc](https://ctftime.org/team/53812)
+
+[0xfun](https://0xfun.org/)
+
+
 
 # CTF Placements
 
