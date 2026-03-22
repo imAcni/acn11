@@ -7,8 +7,9 @@ title: "About"
 
 Welcome to my website, where I post my writeups/scripts for the CTFs I play in. I'm currently a senior in high school, looking to work in cybersecurity. In my free time, i play ctfs and currently main binary exploitation. Recently I also started enjoying OSINT as well. 
 
-I also watch a lot of soccer and basketball. My favorite club is Man City, and my favorite players is KDB and Doku. 
+I also watch a lot of soccer and basketball. My favorite club is Man City, and my favorite players are KDB and Doku. 
 
+stop stalking me ur weird fr ong
 
 # Teams i play for
 
@@ -24,6 +25,46 @@ I also watch a lot of soccer and basketball. My favorite club is Man City, and m
 
 <div class="not-prose mt-4">
   <div class="mt-3 border-t border-border/60 divide-y divide-border/60">
+    <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
+      <div class="min-w-0">
+        <div class="font-semibold leading-snug text-foreground/95">TAMUctf 2026</div>
+        <div class="text-sm text-foreground/80">tjcsc</div>
+      </div>
+      <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
+        <span class="inline-flex size-6 items-center justify-center rounded-full border border-red-400/50 bg-red-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-red-200">A</span>
+        <span>1st 🥇</span>
+      </div>
+    </div>
+    <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
+      <div class="min-w-0">
+        <div class="font-semibold leading-snug text-foreground/95">BSidesSF CTF 2026</div>
+        <div class="text-sm text-foreground/80">tjcsc</div>
+      </div>
+      <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
+        <span class="inline-flex size-6 items-center justify-center rounded-full border border-red-400/50 bg-red-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-red-200">A</span>
+        <span>2nd 🥈</span>
+      </div>
+    </div>
+    <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
+      <div class="min-w-0">
+        <div class="font-semibold leading-snug text-foreground/95">UTctf 2026</div>
+        <div class="text-sm text-foreground/80"></div>
+      </div>
+      <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
+        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
+        <span>1st 🥇</span>
+      </div>
+    </div>
+    <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
+      <div class="min-w-0">
+        <div class="font-semibold leading-snug text-foreground/95">picoCTF 2026</div>
+        <div class="text-sm text-foreground/80">Enthion</div>
+      </div>
+      <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
+        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
+        <span>7th</span>
+      </div>
+    </div>
     <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
       <div class="min-w-0">
         <div class="font-semibold leading-snug text-foreground/95">Batman's Kitchen 2026</div>
