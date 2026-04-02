@@ -3,22 +3,18 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-## tyler 
+## about 
 
-Welcome to my website, where I post my writeups/scripts for the CTFs I play in. I'm currently a senior in high school, looking to work in cybersecurity. In my free time, i play ctfs and currently main binary exploitation. Recently I also started enjoying OSINT as well. 
+Hey, i'm tyler aka acni. I'm a high school student looking to work in cybersecurity. Currently, I'm interesting in low-level exploitation and penetration testing. I'm also an active CTF player, playing binary exploitation and OSINT for various teams. I'm an incoming freshman at Purdue University studying cybersecurity. 
 
-I also watch a lot of soccer and basketball. My favorite club is Man City, and my favorite players are KDB and Doku. 
-
-stop stalking me ur weird fr ong
 
 # Teams i play for
 
-[0xf1sh](https://0xf1.sh/)
+[0xf1sh](https://0xf1.sh/) - [CTFtime](https://ctftime.org/team/299716/)
 
-[tjcsc](https://ctftime.org/team/53812)
+[tjcsc](https://www.tjcsec.club/) - [CTFtime](https://ctftime.org/team/53812)
 
-[0xfun](https://0xfun.org/)
-
+[0xfun](https://0xfun.org/) - [CTFtime](https://ctftime.org/team/354033/)
 
 
 # CTF Placements

@@ -42,12 +42,12 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       </a>
 
       <p>
-      Hello, welcome to my blog where I post my CTF writeups and blogs. I mainly like pwn and OSINT challenges, so you'll see mostly those categories.     </p>
+      i'm a highschooler, CTF player, cybersecurity student, and upcoming security researcher. I blogpost about interesting binary exploitation concepts and open-source intelligence. I enjoy learning low-level exploitation and penetration testing.</p>
             {
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
           <div class="mt-4 flex max-sm:flex-col sm:items-center">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">Social Links:</div>
+            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0"></div>
             <Socials />
           </div>
         )
@@ -76,7 +76,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     {
       recentPosts.length > 0 && (
         <section id="recent-posts" class="pt-12 pb-6">
-          <h2 class="text-2xl font-semibold tracking-wide">Recent Posts</h2>
+          <h2 class="text-2xl font-semibold tracking-wide">Posts</h2>
           <ul>
             {recentPosts.map(
               (data, index) =>
