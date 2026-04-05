@@ -5,7 +5,7 @@ title: "About"
 
 ## about 
 
-Hey, i'm tyler aka acni. I'm a high school student looking to work in cybersecurity. Currently, I'm interesting in low-level exploitation and penetration testing. I'm also an active CTF player, playing binary exploitation and OSINT for various teams. I'm an incoming freshman at Purdue University studying cybersecurity. 
+Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecurity. Currently, I'm interested in low-level exploitation and penetration testing. I'm also an active CTF player, playing binary exploitation and OSINT for various teams. I'm an incoming freshman at Purdue University studying cybersecurity. 
 
 
 # Teams i play for
