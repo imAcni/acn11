@@ -76,3 +76,11 @@ My expert was the first one to introduce me to the world of cybersecurity. They 
 This week was the most hectic by far. First, on the weekend, i had DiceCTF qualifiers, which is a competition based in New York, where the qualifiers would win a free trip to New York to compete in the finals. Obviously, my team and I weren't too experienced, so we couldn't stack up against the massive demand of competition, but we still placed a respectable 25th, which was about 10 slots away from qualifying. The real kicker of this week was PicoCTF, which is the hardest high school competition all year, hosted by Carnegie Mellon University. With the surge of AI, i've noticed many teams utilizing it to solve their problems. We placed in a respectable 7th place in the highschool division, which is not bad at all, considering every single top highschool team plays this CTF for the 4,000 dollar prize pool. We didn't win any cash prizes, but we were close to. I managed to solve the last, super difficult problem, which I will later document when the contest is over (It is still ongoing for another 2 weeks). I feel this is very significant to my journey, as it reflects clear progress in my skills. 
 
 ![](/images/journal/img3.png)
+
+# Journal Entry 6 
+
+I came back from break with more motivation to succeed towards my project. In the second half of the course I also want to continue striving towards the goal and get more experience. 
+
+Currently, I am around 80% done with the first module of the learning course. I hope to finish this module by the end of the school year so I have something accomplished towards my goals. I think this is the next step for me to achieve. 
+
+![](/images/journal/img6.png)
