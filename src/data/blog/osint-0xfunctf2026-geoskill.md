@@ -3,7 +3,7 @@ author: acni
 title: "osint/0xfunCTF 2026: GeoSkill"
 pubDatetime: 2025-12-10
 slug: geoskill
-description: "geoOSINT challenge i authored for 0xfunCTF 2026"
+description: "7-Part geoOSINT/GeoGuessr CTF challenge; Authored for 0xfunCTF"
 tags:
   - osint
 ---
@@ -61,7 +61,6 @@ In this website, you could manually look through each known Google Streetview ca
 
 ![](/images/geoskill/image5_2.png)  
 
-Was this guessy? I mean, i literally wrote a paragraph at the start of the instance where I talked about using geoguessr skills and online tools to figure out the area where different google cars were located. Imo it wasnt guessy its just a skill issue
 
 There were also several instances where people joined discord servers and made reddit posts asking for answers but we tried to shut them all down before it was too widespread. The solve count definitely would have gone down. 
 
@@ -73,8 +72,6 @@ https://www.google.com/maps/place/36°14'22.5"N+112°28'17.0"W/@36.0993503,-112.
 #isthistheGRANDfinale
 
 this was a hint towards the Grand Canyon. Following the river in it you could have just went to the streetview of every place that was nearby the river. 
-
-To be honest, I don't really know why this was so hard for so many people. I mean, I literally picked the closest spot to the river that Google Maps took you to when you searched "Grand Canyon"
 
 ![](/images/geoskill/image6_2.png)  
 
@@ -100,4 +97,3 @@ https://www.google.com/maps/place/32°18'57.1"N+64°45'01.7"W/@32.3159517,-64.75
 ![](/images/geoskill/image7.png)  
 
 
-In all, this ctf was absolutely insane and everything that could've happened, happened. I hope yall dont blame me for all the shit that happened tho ong i was NOT responsible. (nor did i steal any chalsmyself lol). 

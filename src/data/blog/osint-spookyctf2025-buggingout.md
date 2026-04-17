@@ -3,7 +3,7 @@ author: acni
 title: "osint/spookyCTF 2025: BuggingOut"
 pubDatetime: 2025-11-01
 slug: buggingout
-description: "long osint chall around NYC + first blood"
+description: "10-Part OSINT CTF challenge from NJIT's spookyCTF: geoOSINT around NYC"
 tags:
   - osint
 ---
