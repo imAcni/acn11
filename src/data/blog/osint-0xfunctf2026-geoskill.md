@@ -3,7 +3,7 @@ author: acni
 title: "osint/0xfunCTF 2026: GeoSkill"
 pubDatetime: 2025-12-10
 slug: geoskill
-description: "7-Part geoOSINT/GeoGuessr CTF challenge; Authored for 0xfunCTF"
+description: "7-Part GeoGuessr CTF challenge: authored for 0xfunCTF 2026"
 tags:
   - osint
 ---

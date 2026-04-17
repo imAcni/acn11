@@ -3,7 +3,7 @@ author: acni
 title: "pwn/POC CTF: echo"
 pubDatetime: 2025-10-14
 slug: echo
-description: "Simple pwn exploitation: Abusing a Buffer Overflow and fmtstring leak to leak LIBC and ROP to a onegadget to win"
+description: "Buffer Overflow and fmtstring leak to leak LIBC and ROP2win"
 tags:
   - pwn
 ---

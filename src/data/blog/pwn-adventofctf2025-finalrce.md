@@ -4,7 +4,7 @@ title: "pwn/adventofCTF 2025: FinalRCE"
 pubDatetime: 2025-12-31
 slug: 'pwn-adventofCTF2025-finalrce'
 featured: true
-description: "Abusing conslidation and UAFs in GNU Objstack for a largebin attack, then trigger FSOP via IO_list_all + House of Apple 2 to pop a shell"
+description: "Abusing conslidation and UAFs in GNU Objstack for a largebin attack"
 tags:
   - pwn
 ---

@@ -4,7 +4,7 @@ title: "pwn/diceCTF 2026: garden"
 pubDatetime: 2026-03-11
 slug: 'pwn-dicectf2026-garden'
 featured: true
-description: "Using a type confusion and logic error in a custom VM GC challenge for an arb write, then leaked libc via environ and ROPed to system('/bin/sh')"
+description: "Using type confusion and a logic error in a custom VM GC challenge"
 tags:
   - pwn
 ---
