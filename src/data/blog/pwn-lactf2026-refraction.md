@@ -3,6 +3,7 @@ author: acni
 title: "pwn/LACTF 2026: Refraction"
 pubDatetime: 2026-04-17
 slug: refraction
+featured: true
 description: "Exploring C++ Exception Handling and forging EH frames into a fake catch"
 tags:
   - pwn
