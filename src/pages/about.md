@@ -14,11 +14,11 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
   <div class="mt-3 border-t border-border/60 divide-y divide-border/60">
     <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
       <div class="min-w-0">
-        <div class="font-semibold leading-snug text-foreground/95">BSidesSF CTF 2026</div>
-        <div class="text-sm text-foreground/80">tjcsc</div>
+        <div class="font-semibold leading-snug text-foreground/95">Garden State CTF Quals 2026</div>
+        <div class="text-sm text-foreground/80">Kitty Wizard Money Gang</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-red-400/50 bg-red-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-red-200">A</span>
+        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
         <span>2nd 🥈</span>
       </div>
     </div> 
