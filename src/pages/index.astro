@@ -11,12 +11,30 @@ import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
+import {
+  getStatusData,
+  getStatusTypeClass,
+  type StatusEntry,
+} from "@/utils/status";
+
+export const prerender = false;
 
 const posts = await getCollection("blog");
+const statusData = await getStatusData();
+const currentStatus = statusData.current;
 
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
+
+const formatStatusDate = (status: StatusEntry) =>
+  status.updatedAt
+    ? new Intl.DateTimeFormat("en-US", {
+        dateStyle: "medium",
+        timeStyle: "short",
+        timeZone: SITE.timezone,
+      }).format(status.updatedAt)
+    : "not set";
 ---
 
 <Layout>
@@ -26,6 +44,44 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
         acni
       </h1>
+      {
+        currentStatus && (
+          <div class="mt-[-0.75rem] mb-5 max-w-2xl">
+            <p
+              class:list={[
+                "text-sm leading-6 sm:text-base",
+                getStatusTypeClass(currentStatus.type),
+              ]}
+            >
+              <span class="text-foreground/60">status: </span>
+              {currentStatus.parts.map(part =>
+                part.type === "link" ? (
+                  <a
+                    href={part.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    class="underline decoration-accent/60 underline-offset-4 hover:text-accent"
+                  >
+                    {part.text}
+                  </a>
+                ) : (
+                  part.text
+                )
+              )}
+            </p>
+            <p class="mt-1 text-xs text-foreground/60">
+              last updated: {formatStatusDate(currentStatus)}
+              <span aria-hidden="true"> · </span>
+              <a
+                href="/statuses/"
+                class="underline decoration-accent/60 underline-offset-4 hover:text-accent"
+              >
+                past statuses
+              </a>
+            </p>
+          </div>
+        )
+      }
       <a
         target="_blank"
         href="/rss.xml"
@@ -42,12 +98,15 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       </a>
 
       <p>
-      Hey, I'm tyler. I'm a highschooler, CTF player, and cybersecurity student. I blogpost about interesting binary exploitation concepts and open-source intelligence challenges.</p>
-            {
+        Hey, I'm tyler. I'm a highschooler, CTF player, and cybersecurity
+        student. I blogpost about interesting binary exploitation concepts and
+        open-source intelligence challenges.
+      </p>
+      {
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
           <div class="mt-4 flex max-sm:flex-col sm:items-center">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0"></div>
+            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0" />
             <Socials />
           </div>
         )

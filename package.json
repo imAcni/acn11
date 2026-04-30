@@ -15,9 +15,11 @@
   "dependencies": {
     "@astrojs/rss": "^4.0.14",
     "@astrojs/sitemap": "^3.6.0",
+    "@astrojs/vercel": "^9.0.4",
     "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/vite": "^4.1.18",
     "@vercel/analytics": "^2.0.0",
+    "@vercel/edge-config": "^1.4.3",
     "astro": "^5.18.0",
     "dayjs": "^1.11.19",
     "lodash.kebabcase": "^4.1.1",

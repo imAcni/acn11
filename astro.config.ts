@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { defineConfig, envField, fontProviders } from "astro/config";
+import vercel from "@astrojs/vercel";
 import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
 import remarkToc from "remark-toc";
@@ -60,9 +61,7 @@ const getUnlistedPaths = () => {
 
         if (!/^\s*unlisted:\s*true\s*$/m.test(frontmatterMatch[1])) continue;
 
-        const relative = path
-          .relative(BLOG_PATH, fullPath)
-          .replace(/\\/g, "/");
+        const relative = path.relative(BLOG_PATH, fullPath).replace(/\\/g, "/");
         const segments = relative.split("/");
         const fileName = segments.pop() ?? "";
         const slug = fileName.replace(/\.md$/, "");
@@ -90,6 +89,7 @@ const unlistedPaths = getUnlistedPaths();
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
+  adapter: vercel(),
   integrations: [
     sitemap({
       filter: page => {

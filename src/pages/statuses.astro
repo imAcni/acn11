@@ -1,0 +1,72 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Main from "@/layouts/Main.astro";
+import Footer from "@/components/Footer.astro";
+import { SITE } from "@/config";
+import {
+  getStatusData,
+  getStatusTypeClass,
+  type StatusEntry,
+} from "@/utils/status";
+
+export const prerender = false;
+
+const statusData = await getStatusData();
+const statuses = statusData.history;
+const formatStatusDate = (status: StatusEntry) =>
+  status.updatedAt
+    ? new Intl.DateTimeFormat("en-US", {
+        dateStyle: "medium",
+        timeStyle: "short",
+        timeZone: SITE.timezone,
+      }).format(status.updatedAt)
+    : "not set";
+---
+
+<Layout title={`Statuses | ${SITE.title}`} description="Past acni statuses.">
+  <Header />
+  <Main pageTitle="Statuses" pageDesc="Past front page statuses.">
+    {
+      statuses.length > 0 ? (
+        <ol class="border-y border-border/60">
+          {statuses.map(status => (
+            <li class="border-b border-border/60 py-4 last:border-b-0">
+              <p
+                class:list={[
+                  "text-sm leading-6 sm:text-base",
+                  getStatusTypeClass(status.type),
+                ]}
+              >
+                {status.parts.map(part =>
+                  part.type === "link" ? (
+                    <a
+                      href={part.href}
+                      target="_blank"
+                      rel="noreferrer"
+                      class="underline decoration-accent/60 underline-offset-4 hover:text-accent"
+                    >
+                      {part.text}
+                    </a>
+                  ) : (
+                    part.text
+                  )
+                )}
+              </p>
+              <p class="mt-1 text-xs text-foreground/60">
+                last updated: {formatStatusDate(status)}
+              </p>
+            </li>
+          ))}
+        </ol>
+      ) : (
+        <p class="text-sm text-foreground/70">
+          {statusData.unavailable
+            ? "Status data is unavailable in this environment."
+            : "No statuses are stored in Edge Config yet."}
+        </p>
+      )
+    }
+  </Main>
+  <Footer />
+</Layout>
