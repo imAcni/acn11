@@ -6,6 +6,7 @@ unlisted: true
 description: "Required roadmap page for a class"
 ---
 
+This is a webpage to track progress for a class in school I am doing, where we have to work towards a goal and track progress on it throughout the year. 
 
 This is a public website, so I don't want to create 3 different pages due to privacy reasons (unless it is needed). It is also listed on Page 2 of the main website. 
 
@@ -84,3 +85,36 @@ I came back from break with more motivation to succeed towards my project. In th
 Currently, I am around 80% done with the first module of the learning course. I hope to finish this module by the end of the school year so I have something accomplished towards my goals. I think this is the next step for me to achieve. 
 
 ![](/images/journal/img6.png)
+
+# Journal Entry 8 
+
+I think a small reward I can give myself is doing something/getting something rewarding whenever I complete a challenge. Right now, just the satisfaction of completing one of the challenges in the project that I'm doing, where I have to go through lesson modules to complete the chapter, is enough to keep going. I think completing a challenge every day for a good month can help me keep repeating this process so I can learn more. 
+
+Currently, I am almost finished with the module, and at 90% completion. I have just finished the second hardest module, and looking to finish the final one. I think it will take a long time to do. 
+
+![](/images/journal/img8.png)
+
+# Journal Entry 9
+
+I finally completed the module, and got my "orange belt" from the website. The last module took a very long time, but after hours of work I finally finished it. I feel super accomplished, as this was the main goal for this journey. 
+
+![](/images/journal/img9.png)
+
+![](/images/journal/img9_2.png)
+
+I also got put on their website for the orange belt: https://pwn.college/belts
+
+I think the next step is either to get the certification, or to continue the progress and go for the next section. 
+
+# Journal Entry 10 
+
+The best thing I've done in this project so far was achieve my orange belt and finish the module.
+
+I also publicly posted a blogpost/research on my website, which has gotten over 100 views so far:
+https://www.acn1.xyz/posts/refraction
+
+It's about computer science/exploitation concept, in brief, it is about researching C++ exception handling and how you can turn it into control flow and a successful exploit. 
+
+Now, I've decided to move on to the next belt/module in the website I am pursuing. Currently, I have about 30% progress, and there is a chance i can get it done before the end of the year if I really try hard enough.
+
+![](/images/journal/img10.png)
