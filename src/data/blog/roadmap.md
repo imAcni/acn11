@@ -118,3 +118,17 @@ It's about computer science/exploitation concept, in brief, it is about research
 Now, I've decided to move on to the next belt/module in the website I am pursuing. Currently, I have about 30% progress, and there is a chance i can get it done before the end of the year if I really try hard enough.
 
 ![](/images/journal/img10.png)
+
+# Journal Entry 11 
+
+The hardest part of the project was doing research on the topics that I was confused about. There aren't a lot of sources that explicity tell you what the solution is, because of how broad and niche the searches I make are.
+
+Right now, I am still going through with the yellow module and making steady progress. I feel confident that I can make progress before the end of the year. My next step is to continue progress and keep learning. 
+
+# Journal Entry 12
+
+- I think I can show module completion and progression, along with certain real-life examples of bugs and interesting concepts I researched about. 
+
+Currently, I am continuing with module progression and completion on the website. However, it is on hiatus currently as my friends and I prep to compete in DEFcon ctf, which is the biggest cybersecurity competition and conference in the United States. 
+
+
