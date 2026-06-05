@@ -131,4 +131,9 @@ Right now, I am still going through with the yellow module and making steady pro
 
 Currently, I am continuing with module progression and completion on the website. However, it is on hiatus currently as my friends and I prep to compete in DEFcon ctf, which is the biggest cybersecurity competition and conference in the United States. 
 
+# Journal Entry 13
+
+If I had to start over and do something differently, I would start by making a concrete schedule to track my progress and workload every day. By tracking my everyday progress I could manage my time and workload better across multiple days.
+
+Last week we qualified for Defcon CTF so a few members of the team get to fly out to Vegas for free and compete. As for my current goal I have not made any significant progress, but I am still working towards my alternative goal of completing another module before the school year ends.
 
