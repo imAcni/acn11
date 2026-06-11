@@ -137,3 +137,9 @@ If I had to start over and do something differently, I would start by making a c
 
 Last week we qualified for Defcon CTF so a few members of the team get to fly out to Vegas for free and compete. As for my current goal I have not made any significant progress, but I am still working towards my alternative goal of completing another module before the school year ends.
 
+# Journal Entry 14
+
+I think I will probably continue this goal and journey when I go to college, as I will be working on similar topics and ideas throughout my college studies. I plan to complete the entire course by my first or second semester so I have improved my skills. 
+
+I have made some progress in the module I am working on, and completed 3 courses. I think it wouldn't be long until I finish another module in the journey to completing the entire course. I also helped other friends completing the same course with the problems they were stuck on. 
+
