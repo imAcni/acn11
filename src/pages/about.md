@@ -11,7 +11,37 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
 # CTF Placements
 
 <div class="not-prose mt-4">
-  <div class="mt-3 border-t border-border/60 divide-y divide-border/60">
+  <div class="mt-3 border-t border-border/60 divide-y divide-border/60"> 
+    <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
+      <div class="min-w-0">
+        <div class="font-semibold leading-snug text-foreground/95">b01lersCTF 2026 (Human Div)</div>
+        <div class="text-sm text-foreground/80">Shellphish</div>
+      </div>
+      <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
+        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
+        <span>3rd🥉</span>
+      </div>
+    </div>
+    <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
+      <div class="min-w-0">
+        <div class="font-semibold leading-snug text-foreground/95">TJCTF 2026 (HS)</div>
+        <div class="text-sm text-foreground/80">acni solo run</div>
+      </div>
+      <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
+        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
+        <span>4th</span>
+      </div>
+    </div>
+    <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
+      <div class="min-w-0">
+        <div class="font-semibold leading-snug text-foreground/95">DEFCON CTF Qualifiers 2026</div>
+        <div class="text-sm text-foreground/80">Shellphish (i had 0 contribution)</div>
+      </div>
+      <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
+        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
+        <span>11th</span>
+      </div>
+    </div>
     <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
       <div class="min-w-0">
         <div class="font-semibold leading-snug text-foreground/95">Garden State CTF Quals 2026</div>
