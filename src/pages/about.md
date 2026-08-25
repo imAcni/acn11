@@ -7,6 +7,11 @@ title: "About"
 
 Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecurity. Currently, I'm interested in low-level exploitation and penetration testing. I'm also an active CTF player, playing binary exploitation and OSINT for various teams. I'm an incoming freshman at Purdue University studying cybersecurity. 
 
+## CVEs
+
+[CVE-2026-74851](https://wpscan.com/vulnerability/4972f315-3819-4fb9-b56a-a88df992416e/)
+
+[inc@Enthion](https://enthion.org/disclosures)
 
 # CTF Placements
 
@@ -14,11 +19,28 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
   <div class="mt-3 border-t border-border/60 divide-y divide-border/60"> 
     <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
       <div class="min-w-0">
+        <div class="font-semibold leading-snug text-foreground/95">LIT CTF (High School)</div>
+        <div class="text-sm text-foreground/80">0xf1sh</div>
+      </div>
+      <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
+        <span>1st 🥇</span>
+      </div>
+    </div>
+    <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
+      <div class="min-w-0">
+        <div class="font-semibold leading-snug text-foreground/95">DEFCON CTF 34 Finals</div>
+        <div class="text-sm text-foreground/80">Shellphish</div>
+      </div>
+      <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
+        <span>10th</span>
+      </div>
+    </div>
+    <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
+      <div class="min-w-0">
         <div class="font-semibold leading-snug text-foreground/95">b01lersCTF 2026 (Human Div)</div>
         <div class="text-sm text-foreground/80">Shellphish</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
         <span>3rd🥉</span>
       </div>
     </div>
@@ -28,7 +50,6 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
         <div class="text-sm text-foreground/80">acni solo run</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
         <span>4th</span>
       </div>
     </div>
@@ -38,7 +59,6 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
         <div class="text-sm text-foreground/80">Shellphish (i had 0 contribution)</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
         <span>11th</span>
       </div>
     </div>
@@ -48,7 +68,6 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
         <div class="text-sm text-foreground/80">Kitty Wizard Money Gang</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
         <span>2nd 🥈</span>
       </div>
     </div> 
@@ -58,7 +77,6 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
         <div class="text-sm text-foreground/80">Enthion (scoops ahoy)</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
         <span>7th</span>
       </div>
     </div>
@@ -68,7 +86,6 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
         <div class="text-sm text-foreground/80">Enthion</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
         <span>2nd 🥈</span>
       </div>
     </div>
@@ -78,7 +95,6 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
         <div class="text-sm text-foreground/80">0xfun</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-red-400/50 bg-red-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-red-200">A</span>
         <span>3rd 🥉</span>
       </div>
     </div> 
@@ -90,7 +106,6 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
         <div class="text-sm text-foreground/80">0xf1sh</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-yellow-400/50 bg-yellow-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-yellow-200">S</span>
         <span>1st 🥇</span>
       </div>
     </div>
@@ -100,18 +115,7 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
         <div class="text-sm text-foreground/80">0xf1sh</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
         <span>4th</span>
-      </div>
-    </div>
-    <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
-      <div class="min-w-0">
-        <div class="font-semibold leading-snug text-foreground/95">KnightCTF 2026</div>
-        <div class="text-sm text-foreground/80">0xf1sh</div>
-      </div>
-      <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
-        <span>2nd 🥈</span>
       </div>
     </div>
     <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
@@ -120,18 +124,7 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
         <div class="text-sm text-foreground/80">0xf1sh</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
         <span>3rd 🥉</span>
-      </div>
-    </div>
-    <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
-      <div class="min-w-0">
-        <div class="font-semibold leading-snug text-foreground/95">BSides Algiers 2025</div>
-        <div class="text-sm text-foreground/80">0xfun</div>
-      </div>
-      <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-emerald-400/50 bg-emerald-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-emerald-200">C</span>
-        <span>1st 🥇</span>
       </div>
     </div>
     <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
@@ -140,17 +133,15 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
         <div class="text-sm text-foreground/80">0xfun</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
         <span>2nd 🥈</span>
       </div>
     </div>
     <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
       <div class="min-w-0">
         <div class="font-semibold leading-snug text-foreground/95">niteCTF 2025</div>
-        <div class="text-sm text-foreground/80">tjcsc (geoosint slave)</div>
+        <div class="text-sm text-foreground/80">tjcsc</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-red-400/50 bg-red-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-red-200">A</span>
         <span>1st 🥇</span>
       </div>
     </div>
@@ -160,7 +151,6 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
         <div class="text-sm text-foreground/80">0xfun</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-emerald-400/50 bg-emerald-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-emerald-200">C</span>
         <span>1st 🥇</span>
       </div>
     </div>
@@ -170,7 +160,6 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
         <div class="text-sm text-foreground/80">0xf1sh</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-red-400/50 bg-red-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-red-200">A</span>
         <span>2nd 🥈</span>
       </div>
     </div>
@@ -180,7 +169,6 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
         <div class="text-sm text-foreground/80">0xf1sh</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-red-400/50 bg-red-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-red-200">A</span>
         <span>1st 🥇</span>
       </div>
     </div>
@@ -192,7 +180,6 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
         <div class="text-sm text-foreground/80">0xf1sh</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-yellow-400/50 bg-yellow-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-yellow-200">S</span>
         <span>3rd 🥉</span>
       </div>
     </div>
@@ -202,7 +189,6 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
         <div class="text-sm text-foreground/80">0xfun</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-emerald-400/50 bg-emerald-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-emerald-200">C</span>
         <span>1st 🥇</span>
       </div>
     </div>
@@ -214,7 +200,6 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
         <div class="text-sm text-foreground/80">acni</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-red-400/50 bg-red-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-red-200">A</span>
         <span>1st 🥇</span>
       </div>
     </div>
@@ -224,17 +209,6 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
         <div class="text-sm text-foreground/80">0xfun</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
-        <span>1st 🥇</span>
-      </div>
-    </div>
-    <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
-      <div class="min-w-0">
-        <div class="font-semibold leading-snug text-foreground/95">QnQSec Special Round 2025</div>
-        <div class="text-sm text-foreground/80">0xfun</div>
-      </div>
-      <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-emerald-400/50 bg-emerald-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-emerald-200">C</span>
         <span>1st 🥇</span>
       </div>
     </div>
@@ -244,18 +218,7 @@ Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecu
         <div class="text-sm text-foreground/80">Kitty Wizard Money Gang</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-blue-400/50 bg-blue-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-blue-200">B</span>
         <span>4th</span>
-      </div>
-    </div>
-    <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
-      <div class="min-w-0">
-        <div class="font-semibold leading-snug text-foreground/95">RITSec 2025 (HS/College)</div>
-        <div class="text-sm text-foreground/80">Kitty Wizard Money Gang</div>
-      </div>
-      <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span class="inline-flex size-6 items-center justify-center rounded-full border border-red-400/50 bg-red-500/20 text-[0.65rem] font-semibold uppercase tracking-normal text-red-200">A</span>
-        <span>8th</span>
       </div>
     </div>
   </div>
