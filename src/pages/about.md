@@ -7,6 +7,20 @@ title: "About"
 
 Hey, i'm tyler, aka acni. I'm a high school student looking to work in cybersecurity. Currently, I'm interested in low-level exploitation and penetration testing. I'm also an active CTF player, playing binary exploitation and OSINT for various teams. I'm an incoming freshman at Purdue University studying cybersecurity. 
 
+## Current Teams
+
+- [L3ak](https://l3ak.team/)
+
+- [0xf1sh](https://0xf1.sh/)
+
+Past:
+
+- [Shellphish](https://shellphish.net/)
+
+- [tjcsc](https://ctftime.org/team/53812/)
+
+- [0xfun](https://0xfun.org)
+
 ## CVEs
 
 [CVE-2026-74851](https://wpscan.com/vulnerability/4972f315-3819-4fb9-b56a-a88df992416e/)
