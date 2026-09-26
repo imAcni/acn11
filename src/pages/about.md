@@ -30,7 +30,16 @@ Past:
 # CTF Placements
 
 <div class="not-prose mt-4">
-  <div class="mt-3 border-t border-border/60 divide-y divide-border/60"> 
+  <div class="mt-3 border-t border-border/60 divide-y divide-border/60">
+    <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
+      <div class="min-w-0">
+        <div class="font-semibold leading-snug text-foreground/95">CSAW CTF 2026 Quals</div>
+        <div class="text-sm text-foreground/80">0xf1sh</div>
+      </div>
+      <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
+        <span>6th</span>
+      </div>
+    </div>
     <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
       <div class="min-w-0">
         <div class="font-semibold leading-snug text-foreground/95">LIT CTF (High School)</div>
