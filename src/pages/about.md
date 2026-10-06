@@ -25,6 +25,8 @@ Past:
 
 [CVE-2026-74851](https://wpscan.com/vulnerability/4972f315-3819-4fb9-b56a-a88df992416e/)
 
+[CVE-2026-104829](https://pwn.college) (disclosure soon)
+
 [inc@Enthion](https://enthion.org/disclosures)
 
 # CTF Placements
