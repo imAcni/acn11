@@ -39,7 +39,7 @@ Past:
         <div class="text-sm text-foreground/80">0xf1sh</div>
       </div>
       <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
-        <span>6th</span>
+        <span>5th</span>
       </div>
     </div>
     <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
