@@ -27,6 +27,8 @@ Past:
 
 [CVE-2026-104829](https://github.com/pwncollege/dojo/security/advisories/GHSA-3mp3-cqfr-9crr)
 
+[CVE-2026-104837](https://github.com/pwncollege/dojo/security/advisories/GHSA-965v-m9f8-4x82)
+
 [inc@Enthion](https://enthion.org/disclosures)
 
 # CTF Placements
