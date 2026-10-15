@@ -7,13 +7,11 @@ title: "About"
 
 Hey, i'm tyler, aka acni. I'm a college freshman at Purdue University looking to work in cybersecurity. Currently, I'm interested in low-level exploitation and penetration testing. I'm also an active CTF player, playing binary exploitation and OSINT for various teams. 
 
-## Current Teams
+## Current & Past Teams
 
 - [L3ak](https://l3ak.team/)
 
 - [0xf1sh](https://0xf1.sh/)
-
-Past:
 
 - [Shellphish](https://shellphish.net/)
 
