@@ -35,6 +35,24 @@ Hey, i'm tyler, aka acni. I'm a college freshman at Purdue University looking to
   <div class="mt-3 border-t border-border/60 divide-y divide-border/60">
     <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
       <div class="min-w-0">
+        <div class="font-semibold leading-snug text-foreground/95">Collegiate Penetration Testing Competition (CPTC) Greater Lakes</div>
+        <div class="text-sm text-foreground/80">Blue Team at Purdue</div>
+      </div>
+      <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
+        <span>1st🥇</span>
+      </div>
+    </div>
+    <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
+      <div class="min-w-0">
+        <div class="font-semibold leading-snug text-foreground/95">National Cyber League Individual Fall 2026</div>
+        <div class="text-sm text-foreground/80">acni!</div>
+      </div>
+      <div class="flex items-center gap-2 text-sm text-foreground/85 whitespace-nowrap">
+        <span>3rd🥉</span>
+      </div>
+    </div>
+    <div class="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3">
+      <div class="min-w-0">
         <div class="font-semibold leading-snug text-foreground/95">CSAW CTF 2026 Quals</div>
         <div class="text-sm text-foreground/80">0xf1sh</div>
       </div>
