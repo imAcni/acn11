@@ -25,7 +25,7 @@ export default function Page() {
         </span>
       </h1>
       <p className="mb-4">
-        {`Hey, i'm tyler. I often write blogposts on this website about binary exploitation concepts, CTF challenges, and any low-level exploitation challenges that catch my eye.`}
+        {`Hey, i'm tyler. I write blogposts on this website about binary exploitation concepts, CTF challenges, and any low-level exploitation challenges that catch my eye.`}
       </p>
       <nav aria-label="Social links" className="-ml-1 mt-10 flex items-center gap-1">
         {socialLinks.map(({ name, href, Icon }) => (
