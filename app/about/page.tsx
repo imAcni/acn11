@@ -71,12 +71,27 @@ export default function AboutPage() {
               href="https://wpscan.com/vulnerability/4972f315-3819-4fb9-b56a-a88df992416e/"
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-colors hover:text-blue-600 dark:hover:text-blue-400"
-            >
+              className="transition-colors hover:text-blue-600 dark:hover:text-blue-400">
               CVE-2026-74851
             </a>
           </li>
-          <li>CVE-2026-104829</li>
+          <li><a 
+	  href="https://github.com/pwncollege/dojo/security/advisories/GHSA-3mp3-cqfr-9crr"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="transition-colors hover:text-blue-600 dark:hover:text-blue-400">
+	  CVE-2026-104829</a></li>
+	  <li>
+            <a
+              href="https://github.com/pwncollege/dojo/security/advisories/GHSA-965v-m9f8-4x82"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-blue-600 dark:hover:text-blue-400"
+            >
+              CVE-2026-104837
+            </a>
+          </li>
+
           <li>
             <a
               href="https://enthion.org/disclosures"

@@ -1,10 +1,11 @@
 import { BlogPosts } from 'app/components/posts'
 import { DiscordAvatar } from 'app/components/discord-avatar'
-import { SiDiscord, SiInstagram, SiX, SiYoutube } from 'react-icons/si'
+import { SiDiscord, SiGithub, SiInstagram, SiX, SiYoutube } from 'react-icons/si'
 
 const socialLinks = [
   { name: 'Instagram', href: 'https://www.instagram.com/tyler_.chin/', Icon: SiInstagram },
   { name: 'Discord', href: 'https://discord.com/users/499751229291757578', Icon: SiDiscord },
+  { name: 'GitHub', href: 'https://github.com/imAcni', Icon: SiGithub },
   { name: 'X', href: 'https://x.com/acni101', Icon: SiX },
   { name: 'YouTube', href: 'https://www.youtube.com/@Hisez', Icon: SiYoutube },
 ]
