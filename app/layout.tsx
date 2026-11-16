@@ -11,9 +11,7 @@ import { baseUrl } from './sitemap'
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: {
-    default: 'acnis blog',
-  },
+  title: 'acnis blog',
   description: 'i blogpost about stuff',
   openGraph: {
     title: 'acnis blog',
