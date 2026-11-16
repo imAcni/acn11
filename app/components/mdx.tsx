@@ -2,6 +2,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import { highlight } from 'sugar-high'
+import Prism from 'prismjs'
+import 'prismjs/components/prism-c'
+import 'prismjs/components/prism-python'
 import React from 'react'
 import remarkGfm from 'remark-gfm'
 
@@ -49,9 +52,17 @@ function RoundedImage(props) {
   return <Image alt={props.alt} className="rounded-lg" {...props} />
 }
 
-function Code({ children, ...props }) {
-  let codeHTML = highlight(children)
-  return <code dangerouslySetInnerHTML={{ __html: codeHTML }} {...props} />
+function Code({ children, className, ...props }) {
+  const language = className?.match(/(?:^|\s)language-([\w-]+)/)?.[1]
+  const prismLanguage = language === 'py' ? 'python' : language
+  const grammar = prismLanguage && Prism.languages[prismLanguage]
+  const codeHTML = grammar
+    ? Prism.highlight(children, grammar, prismLanguage)
+    : language
+      ? Prism.util.encode(children)
+      : highlight(children)
+
+  return <code className={className} dangerouslySetInnerHTML={{ __html: codeHTML }} {...props} />
 }
 
 function slugify(str) {

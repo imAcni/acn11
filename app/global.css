@@ -62,6 +62,7 @@ html {
 
 .prose pre {
   @apply bg-neutral-50 dark:bg-neutral-900 rounded-lg overflow-x-auto border border-neutral-200 dark:border-neutral-900 py-2 px-3 text-sm;
+  max-width: 100%;
 }
 
 .prose code {
@@ -76,6 +77,22 @@ html {
 
 .prose code span {
   @apply font-medium;
+}
+
+.prose pre .token.comment { color: #7a7373; }
+.prose pre .token.string { color: #007f7a; }
+.prose pre .token.keyword { color: #b64235; }
+.prose pre .token.number,
+.prose pre .token.boolean { color: #2d5e9d; }
+.prose pre .token.function { color: #704ca1; }
+
+@media (prefers-color-scheme: dark) {
+  .prose pre .token.comment { color: #a19595; }
+  .prose pre .token.string { color: #0fa295; }
+  .prose pre .token.keyword { color: #f47067; }
+  .prose pre .token.number,
+  .prose pre .token.boolean { color: #4c97f8; }
+  .prose pre .token.function { color: #c4a7e7; }
 }
 
 .prose img {
@@ -119,15 +136,6 @@ html {
   /* Override removing top margin, causing layout shift */
   margin-top: 1.25em !important;
   margin-bottom: 1.25em !important;
-}
-
-pre::-webkit-scrollbar {
-  display: none;
-}
-
-pre {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
 }
 
 /* Remove Safari input shadow on mobile */
