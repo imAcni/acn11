@@ -62,7 +62,7 @@ export default function SongsPage() {
     <section className="space-y-10">
       <header>
         <h1 className="mb-8 text-2xl font-semibold tracking-tighter">songs</h1>
-        <p className="mb-4">A few things I&apos;ve been listening to lately.</p>
+        <p className="mb-4">A few things ive been listening to lately</p>
       </header>
 
       <section aria-labelledby="songs-heading">
